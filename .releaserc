@@ -1,8 +1,7 @@
 {
     "branches": [
       "master",
-      "v1.x.x",
-      "v1.0.x"
+      "^((v?).([0-9|x]).([0-9|x]).([0-9|x]))$"
     ],
     "repositoryUrl": "https://github.com/PauloVernetti/PauloVernetti.github.io.git",
     "plugins": [
@@ -44,9 +43,9 @@
         "@semantic-release/git",
         {
           "assets": [
-            "dist",
             "package.json",
-            "CHANGELOG.md"
+            "CHANGELOG.md",
+            "dist"
           ],
           "message": "chore(release): <%= nextRelease.version %> - <%= new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip-ci]"
         }

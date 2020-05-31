@@ -2,6 +2,11 @@ language: node_js
 node_js:
   - 12
 
+branches:
+  only:
+    - master
+    - /^((v?).([0-9|x]).([0-9|x]).([0-9|x]))$/
+
 jobs:
   include:
     - stage: "Build, test and release"
