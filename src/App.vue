@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <HeaderBar prominent></HeaderBar>
+    <HeaderBar
+            absolute
+            prominent
+    ></HeaderBar>
   </div>
 </template>
 
@@ -10,9 +13,7 @@
   export default {
     name: "App",
     data() {
-      return {
-
-      }
+      return {}
     },
     components: {
       HeaderBar

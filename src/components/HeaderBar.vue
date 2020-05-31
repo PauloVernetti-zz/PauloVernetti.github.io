@@ -8,6 +8,10 @@
     export default {
         name: "HeaderBar.vue",
         props: {
+            absolute: {
+                type: Boolean,
+                default: false
+            },
             prominent: {
                 type: Boolean,
                 default: false
@@ -25,12 +29,13 @@
             styles() {
                 let prominent = this.prominent;
                 let height = this.height;
+                let absolute = this.absolute;
 
                 if (prominent) {
                     height = "136px";
                 }
 
-                return `height: ${this.height}; background-color: ${this.color};`
+                return `height: ${this.height}; background-color: ${this.color}; ${ absolute ? "position: absolute" : "position: relative" };`
             }
         }
     }
