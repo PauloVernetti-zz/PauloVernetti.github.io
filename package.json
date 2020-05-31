@@ -1,11 +1,12 @@
 {
   "name": "paulovernetti.github.io",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit --collectCoverage",
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",
