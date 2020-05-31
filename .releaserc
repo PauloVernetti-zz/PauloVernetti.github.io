@@ -1,8 +1,18 @@
 {
     "branches": [
-      "master",
-      "v1.x.x",
-      "v1.0.x"
+      {
+        name: "master"
+      },
+      {
+        name: "v1.x",
+        range: "v1.x",
+        channel: "v1.x"
+      },
+      {
+        name: "v1.0.x",
+        range: "v1.0.x"
+        channel: "v1.0.x"
+      }
     ],
     "repositoryUrl": "https://github.com/PauloVernetti/PauloVernetti.github.io.git",
     "plugins": [
