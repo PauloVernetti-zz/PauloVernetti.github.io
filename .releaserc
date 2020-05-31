@@ -10,7 +10,7 @@
       },
       {
         "name": "v1.0.x",
-        "range": "v1.0.x"
+        "range": "v1.0.x",
         "channel": "v1.0.x"
       }
     ],
