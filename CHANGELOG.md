@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/PauloVernetti/PauloVernetti.github.io/compare/v1.0.1...v1.0.2) (2020-06-01)
+
+
+### Bug Fixes
+
+* **release:** adding npm plugin to fix version updating ([030d145](https://github.com/PauloVernetti/PauloVernetti.github.io/commit/030d145f9de7ba1518864eb1c7991d9f5b30f68b))
+* **lock-file:** fixing version rejection ([fa7f414](https://github.com/PauloVernetti/PauloVernetti.github.io/commit/fa7f414cdf5f9ab233c22c64a103156b8deb18b7))
+
 ## [1.0.1](https://github.com/PauloVernetti/PauloVernetti.github.io/compare/v1.0.0...v1.0.1) (2020-06-01)
 
 

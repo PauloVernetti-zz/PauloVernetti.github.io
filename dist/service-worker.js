@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.a67befb5a6374de71a4a06cd49138266.js"
+  "/precache-manifest.3d4b5bd5b827716e885230ca7f9fe562.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "paulovernetti.github.io"});
