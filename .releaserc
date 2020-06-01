@@ -29,6 +29,7 @@
             ]
           },
           "writerOpts": {
+            "date": "dd/mm/yyyy",
             "commitsSort": [
               "subject",
               "scope"
