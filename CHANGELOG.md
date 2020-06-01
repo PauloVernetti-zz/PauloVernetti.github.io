@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/PauloVernetti/PauloVernetti.github.io/compare/v1.0.0...v1.0.1) (2020-06-01)
+
+
+### Bug Fixes
+
+* **package.json:** removing tag of version ([edf221a](https://github.com/PauloVernetti/PauloVernetti.github.io/commit/edf221a0f315fcb950cb0cd68b9b00920abe32d2))
+
 # 1.0.0 (2020-06-01)
 
 
